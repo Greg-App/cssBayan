@@ -106,11 +106,13 @@ font-size: 0.7em;
 transition: max-height 0.80s ease-out;
 border-top: 2px solid rgb(29, 77, 10);
 }
-.item__text:hover {
-  background:rgba(38, 39, 38, 0.3)
+@media (min-width: 821px) {
+  .item__text:hover {
+    background:rgba(186, 192, 186, 0.3)
+  }
 }
 .item__text:active {
-  background:rgba(61, 252, 71, 0.6);
+  background:rgba(160, 240, 160, 0.6);
   cursor:grabbing;
 }
 
@@ -153,3 +155,16 @@ transition: 0.4s;
 
 }
 
+
+@media (max-width: 820px) {
+  .wrapper {
+    font-size: 1.4rem;
+
+  }
+}
+@media (max-width: 320px) {
+  .wrapper {
+    font-size: 1.2rem;
+
+  }
+}
