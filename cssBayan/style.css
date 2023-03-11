@@ -10,6 +10,10 @@ html {
   font-family: lato, sans-serif;
   /* min-height: 100vh; */
 }
+html {
+  width: 100vw;
+  overflow-x: hidden;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -64,7 +68,10 @@ body {
   width:100%;
 }
 .item__label {
+  display:block;
   cursor:pointer;
+  border: 1px solid grey;
+  border-radius: 0.2em;
 }
 
 .item__label-title {
