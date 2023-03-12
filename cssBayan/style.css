@@ -145,7 +145,7 @@ body {
 }
 
 .item__content:active {
-  background: rgba(160, 240, 160, 0.6);
+  background: rgba(228, 162, 20, 0.979);
   cursor: grabbing;
 }
 
