@@ -1,5 +1,4 @@
 * {
-  /* outline: 1px solid red; */
   box-sizing: border-box;
 }
 
@@ -77,8 +76,8 @@ body {
 .item__label {
   display: block;
   cursor: pointer;
-  border: 1px solid grey;
-  border-radius: 0.2em;
+  border: 0.03em solid grey;
+  border-radius: 0.3em;
 }
 
 .wrapper .item__label-title,
@@ -124,14 +123,12 @@ body {
   overflow: hidden;
   font-size: 0.7em;
   transition: max-height 0.80s ease-out;
-  border-top: 2px solid rgb(29, 77, 10);
 }
 
 .item__img {
   display: block;
   margin: 0.7em;
   flex-shrink: 1;
-
 }
 
 @media (hover: hover) {
@@ -154,7 +151,7 @@ body {
   cursor: grabbing;
 }
 .item__content:active > img {
-  box-shadow: 0 0 12px green;
+  box-shadow: 0 0 0.7em green;
 }
 
 input[type="radio"] {
