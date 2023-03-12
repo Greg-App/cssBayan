@@ -129,12 +129,12 @@ body {
 
 .item__img {
   display: block;
-  padding: 0.7em;
+  margin: 0.7em;
   flex-shrink: 1;
 
 }
 
-@media (min-width: 821px) {
+@media (hover: hover) {
   .item__content:hover {
     background: rgba(186, 192, 186, 0.5)
   }
@@ -143,10 +143,18 @@ body {
     background: rgba(9, 56, 46, 0.3)
   }
 }
+@media (hover: none) {
+  .item__label-icon {
+    opacity: 1;
+  }
+}
 
 .item__content:active {
-  background: rgba(228, 162, 20, 0.979);
+  background: rgba(141, 16, 179, 0.3);
   cursor: grabbing;
+}
+.item__content:active > img {
+  box-shadow: 0 0 12px green;
 }
 
 input[type="radio"] {
