@@ -32,7 +32,7 @@ body {
   background: beige;
   padding: 1.5rem;
   min-height: 100vh;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   transition: 0.5s;
 }
 
@@ -160,7 +160,7 @@ input[type="radio"] {
 
 .item__label:hover>.item__content,
 .item__input:checked+label .item__content {
-  max-height: 100rem;
+  max-height: 200rem;
 }
 
 .item__input:checked+label .item__label-title {
@@ -191,6 +191,11 @@ input[type="radio"] {
 .p-main:hover .item__label-icon {
   opacity: 1;
   transition: 0.3s;
+}
+@media (max-width: 1920px) {
+  .wrapper {
+    font-size: 1.6rem;
+  }
 }
 
 @media (max-width: 820px) {
